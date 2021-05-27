@@ -1,15 +1,41 @@
-const router = require("express");
+const router = require("express").Router();
 const User = require("../../models/User");
 
 router.get("/", async (req, res) => {
-  //query the database table for all users
-});
-
-router.post("/", async (req, res) => {
   try {
-    //create a new user in the database table
+    //query the database table for all users
     const users = await User.findAll();
   } catch (error) {}
 });
 
-module.exports = "router";
+router.post("/", async (req, res) => {
+  //create a new user in the database table
+});
+
+//route will insert bulk seed data
+router.post("/seed", (req, res) => {
+  User.bulkCreate([
+    {
+      username: "amendo",
+      email: "a@gmail.com",
+      password: "secret",
+    },
+    {
+      username: "amendo",
+      email: "a@gmail.com",
+      password: "secret",
+    },
+    {
+      username: "amendo",
+      email: "a@gmail.com",
+      password: "secret",
+    },
+    {
+      username: "amendo",
+      email: "a@gmail.com",
+      password: "secret",
+    },
+  ]);
+});
+
+module.exports = router;
