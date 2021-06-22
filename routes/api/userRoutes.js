@@ -16,24 +16,24 @@ router.post("/", async (req, res) => {
 router.post("/seed", (req, res) => {
   User.bulkCreate([
     {
-      username: "amendo",
+      username: "test123",
       email: "a@gmail.com",
       password: "secret",
     },
     {
-      username: "amendo",
-      email: "a@gmail.com",
-      password: "secret",
+      username: "seed1",
+      email: "seed@gmail.com",
+      password: "secret1",
+    },
+    {
+      username: "productBuyer",
+      email: "buyer@gmail.com",
+      password: "secret12",
     },
     {
       username: "amendo",
       email: "a@gmail.com",
-      password: "secret",
-    },
-    {
-      username: "amendo",
-      email: "a@gmail.com",
-      password: "secret",
+      password: "secret123",
     },
   ]);
 });
