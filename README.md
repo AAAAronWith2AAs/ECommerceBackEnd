@@ -65,13 +65,4 @@ THEN I am able to successfully create, update, and delete data in my database
 - [Sequelize](https://www.npmjs.com/package/sequelize)
 - [Dotenv](https://www.npmjs.com/package/dotenv)
 
-## Credits
 
-Study group:
-
-- Lauren Gabaldon
-- Josh Lee
-- Jared Sutch
-- Lacey Pape
-- Alex Jurgs
-- Tarik Maggio
