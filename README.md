@@ -4,9 +4,9 @@
 
 Build the back end for an e-commerce site by modifying starter code. You’ll configure a working Express.js API to use Sequelize to interact with a MySQL database.
 
-Completed site's code: https://github.com/Chip-L/e-commerce
+Completed site's code: https://github.com/AaronDMendoza/ECommerceBackEnd
 
-Video of working application: https://drive.google.com/file/d/1axtEGTGEc5p6dVhbaHiyjnB6fHHTe61Q/view
+Video of working application:
 
 ## Table of Contents
 
@@ -66,12 +66,3 @@ THEN I am able to successfully create, update, and delete data in my database
 - [Dotenv](https://www.npmjs.com/package/dotenv)
 
 ## Credits
-
-Study group:
-
-- Lauren Gabaldon
-- Josh Lee
-- Jared Sutch
-- Lacey Pape
-- Alex Jurgs
-- Tarik Maggio
