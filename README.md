@@ -6,7 +6,7 @@ Build the back end for an e-commerce site by modifying starter code. You’ll co
 
 Completed site's code: https://github.com/AaronDMendoza/ECommerceBackEnd
 
-Video of working application: https://drive.google.com/file/d/1axtEGTGEc5p6dVhbaHiyjnB6fHHTe61Q/view
+Video of working application: 
 
 ## Table of Contents
 
