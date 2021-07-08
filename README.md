@@ -6,7 +6,11 @@ Build the back end for an e-commerce site by modifying starter code. You’ll co
 
 Completed site's code: https://github.com/AaronDMendoza/ECommerceBackEnd
 
+<<<<<<< HEAD
 Video of working application:
+=======
+Video of working application: 
+>>>>>>> 1dc868e1662e234c8957215c53e3d2b455b519bd
 
 ## Table of Contents
 
@@ -65,4 +69,8 @@ THEN I am able to successfully create, update, and delete data in my database
 - [Sequelize](https://www.npmjs.com/package/sequelize)
 - [Dotenv](https://www.npmjs.com/package/dotenv)
 
+<<<<<<< HEAD
 ## Credits
+=======
+
+>>>>>>> 1dc868e1662e234c8957215c53e3d2b455b519bd
